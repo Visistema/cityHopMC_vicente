@@ -31,9 +31,7 @@ Usage
 Send HTTP GET requests to localhost port 8080, naming origin and destination cities:
 -----------------------------------------------------------------------------------------------
 http://localhost:8080/connected?origin=city1&destination=city2
-If city1 is connected to city2 by any path along known roads, the response will be:
-
-yes.
+If city1 is connected to city2 by any path along known roads, the response will be: yes.
 
 If not, or if the request is not formatted properly, the response will be:
 no.
